@@ -13,7 +13,7 @@ The template uses HTML with CSS for styling.
 
 Clone this repository using:
 
-git clone https://github.com/pribala/udacity_projects.git
+git clone https://github.com/pribala/Neighborhood-Map
 
 ### App Functionality
 
