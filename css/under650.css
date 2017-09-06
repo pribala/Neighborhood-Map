@@ -1,0 +1,17 @@
+/* Reducing font sizes for screen sizes under 650px */
+
+.optionBox {
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	width: 225px;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 18px;
+}	
+
+.filter-container {
+	display: flex;
+	justify-content: center;
+}
