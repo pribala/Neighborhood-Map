@@ -1,7 +1,7 @@
 // Load wikipedia API info specific to the location when,
 // a location is selected from the location list.
 function loadData(marker) {
-	var  wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + marker.title +'&limit=5' +'&format=json&callback=wikiCallback';
+	var  wikiUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + marker.title +'&limit=5' +'&format=json&callback=wikiCallback';
 
 	var wikiRequestTimeout = setTimeout(function(){
 		var errorMessage = "Failed to get Wikipedia Resources";
